@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: webdis
+    repo: https://github.com/SANDIPOP999/hipanime-api1.git
+    plan: free
+    branch: main
+    runtime: npm install  # specify the correct runtime here
+    startCommand: npm start  # specify the start command here
+    buildCommand: yarn
